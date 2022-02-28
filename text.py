@@ -24,10 +24,10 @@ def textSR(opcion):
         print("ERROR")
     return t1
 
-def textint(nums):
-    nums = str
+def textint():
     nums = "ingrese dos valores para la operacion"
-    return nums
+    print(nums)
+    return 0
 
 
 print(textSR(3))
