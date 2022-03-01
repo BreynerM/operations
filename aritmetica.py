@@ -1,34 +1,65 @@
+class Math :
 
-def sumDosNum(n1,n2):
-    return n1+n2
+    n1 = int
+    n2 = int
 
+    def __init__(self,n1,n2,):
+        self.n1 = n1
+        self.n2 = n2
+        
 
-def restDosNum(n1,n2):
-    return n1-n2
-
-
-def multiplicarDosNum(n1,n2):
-    return n1 * n2
-
-
-def dividirDosNum (n1,n2):
-        return n1 / n2
+    def sumDosNumeros(self,n1,n2):
+        return n1 + n2
 
 
-def mediaCuatroNum(n1,n2,n3,n4):
-    n5 = n1 + n2 + n3 + n4 / 4
-    return n5
+    def restaDosNumeros(self,n1,n2):
+        self.n1 = n1
+        self.n2 = n2
+        return n1 + n2
+
+    def divisionDosNumeros(self,n1,n2):
+        self.n1 = n1
+        self.n2 = n2
+        return n1 + n2
+
+    def multiplicacionDosNumeros(self,n1,n2):
+        self.n1 = n1
+        self.n2 = n2
+        
 
 
-def areaDeUnTrinagulo(b , h):
-     c = float
-     c = b * h / 2
-     return c
+class Math2:
+
+    n1 = int
+    n2 = int
+    n3 = int
+    n4 = int
+
+    def __init__(self,n1,n2,n3,n4):
+        self.n1 = n1
+        self.n2 = n2
+        self.n3 = n3
+        self.n4 = n4
 
 
-def radioCirculo (radio):
-    area = pi * radio**2
-    return area
+
+class Math3:
+    pi = float
+    radio = float
+    altura = float
+    base = float
+
+
+    def areaDeUnTrinagulo(self, altura , base):
+        self.altura = altura
+        self.base = base
+
+
+
+    def radioCirculo (self, radio ):
+        self.radio = radio
+        self.pi = pi
+        
 
 
 
